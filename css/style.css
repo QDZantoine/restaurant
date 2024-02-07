@@ -1,17 +1,41 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    color: black !important;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: black !important;
 }
 
-.img_banner{
-    width: 100%!important;
-    height: 1% !important;
+.img_banner {
+  width: 100% !important;
+  height: 1% !important;
 }
 
-.nav_links{
-    font-size: 2em !important;
+.nav_links {
+  font-size: 1.5em !important;
 }
+.nav_links:hover {
+    font-size: 1.5em !important;
+    color: darkgray!important;
+  }
+nav{
+    /* backdrop-filter: blur(2px);
+    position: fixed; */
+    width: 100%;
+    color: #820000!important;
+    
+}
+.fixed-nav {
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s; /* Pour un effet de transition doux */
+  }
+  footer{
+    background-color: #fff!important;
+    color:  #820000!important;
+  }
+  
