@@ -1,0 +1,94 @@
+</head>
+<body class="font-poppins">
+    <!-- Navbar -->
+    <nav class="bg-neutral-100 text-gray-800 p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-lg font-semibold">Restaurant</a>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-4">
+                <a href="index.html" class="hover:text-blue-700">Restaurant</a>
+                <a href="carte.html" class="hover:text-blue-700">Carte</a>
+                <a href="about.html" class="hover:text-blue-700">On parle de nous</a>
+                <a href="contact.html" class="hover:text-blue-700">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="hidden mobile-menu">
+            <a href="index.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Restaurant</a>
+            <a href="carte.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Carte</a>
+            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200">On parle de nous</a>
+            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div class="bg-center bg-cover h-96" style="background-image: url('img/banner_big.jpg');"></div>
+<!-- carte -->
+<div class="flex justify-center items-center min-h-screen">
+    <div id="menu-container" class="w-96 p-6 bg-white rounded shadow-lg">
+        <!-- Menu du midi -->
+        <div class="menu-card">
+            <h2 class="text-2xl font-semibold text-center text-blue-700">Menu du midi</h2>
+            <p class="text-center text-gray-600">uniquement le midi, hors jours fériés</p>
+            <p class="text-center text-xl text-blue-700 my-2">26€</p>
+            <p>Une entrée de la carte au choix</p>
+            <p>Le Plat du jour</p>
+            <p>Un dessert de la carte au choix</p>
+        </div>
+        <!-- Menu carte -->
+        <div class="menu-card hidden">
+            <h2 class="text-2xl font-semibold text-center text-blue-700">Menu carte</h2>
+            <p class="text-center text-xl text-blue-700 my-2">39€</p>
+            <p>Une entrée de la carte au choix</p>
+            <p>Un plat de la carte au choix</p>
+            <p>Un dessert de la carte au choix</p>
+        </div>
+        <!-- Navigation arrows -->
+        <div class="flex justify-between mt-4">
+            <button id="prev-menu" class="text-blue-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
+            <button id="next-menu" class="text-blue-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 w-full text-white">
+        <div class="container mx-auto px-4 py-6">
+          <div class="flex justify-between items-center">
+            <div>
+              <p>Horaires</p>
+              <p>Du Mardi au Samedi Soir</p>
+              <p>Vendredi et Samedi Midi.</p>
+            </div>
+            <div>
+              <p>Nous contacter</p>
+              <p>19 Rue Vieille Boucherie, 64100 Bayonne</p>
+              <p>05 59 01 75 04</p>
+            </div>
+            <div class="text-sm">
+              <a href="#mentions-legales" class="hover:underline">Mentions légales</a> | 
+              <a href="#politique-de-confidentialite" class="hover:underline">Politique de confidentialité</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      
+</body>
+</html>

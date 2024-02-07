@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Restaurant</title>
+</head>
+<body class="font-poppins">
+    <!-- Navbar -->
+    <nav class="bg-neutral-100 text-gray-800 p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-lg font-semibold">Restaurant</a>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-4">
+                <a href="index.html" class="hover:text-blue-700">Restaurant<i class="fa-solid fa-utensils"></i></a>
+                <a href="carte.html" class="hover:text-blue-700">Carte</a>
+                <a href="about.html" class="hover:text-blue-700">On parle de nous</a>
+                <a href="contact.html" class="hover:text-blue-700">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="hidden mobile-menu">
+            <a href="index.html" class="block px-4 py-2 text-sm hover:bg-gray-200 nav_links">Restaurant<i class="fa-solid fa-utensils"></i></a>
+            <a href="carte.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Carte</a>
+            <a href="about.html" class="block px-4 py-2 text-sm hover:bg-gray-200">On parle de nous</a>
+            <a href="contact.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div class="bg-center bg-cover h-96" style="background-image: url('img/banner_big.jpg');"></div>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h5 class="text-xl font-bold mb-2">Nos influences</h5>
+                <p class="text-gray-700 text-base">
+                    Influences, est un restaurant au cadre intimiste et feutré, juste à
+                    côté du centre ville de Bayonne, suffisamment à l’écart pour y
+                    trouver la quiétude. Faustine et Quentin ont personnalisé la
+                    décoration du lieu en y apportant une touche contemporaine, tout en
+                    gardant le charme et le cachet de cette bâtisse historique,
+                    typiquement bayonnaise : 24 couverts pour vous accueillir et vous
+                    faire découvrir leur univers.
+                </p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-neutral-100 shadow-md rounded-lg p-6">
+                <h5 class="text-xl font-bold mb-2">
+                    "On ne peut faire de cuisine si l’on aime pas les gens"
+                </h5>
+                <p class="text-gray-700 text-base">
+                    La cuisine c’est avant tout une histoire de sentiment, et c’est
+            aussi ce qui lie Faustine et Quentin. Leur parcours, leur
+            expérience, se sont conjugués pour faire de ce lieu, un endroit à
+            leur image, épicurien et chaleureux.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap mx-2">
+        <div class="w-full md:w-1/3 px-2 mb-4">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="img/food_1.jpg" alt="..." class="w-full h-auto">
+                <div class="p-4">
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-1/3 px-2 mb-4">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="img/food_2.jpg" alt="..." class="w-full h-auto">
+                <div class="p-4">
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-1/3 px-2 mb-4">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <img src="img/food_3.jpg" alt="..." class="w-full h-auto">
+                <div class="p-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- AVIS -->
+<body>
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+                Vos avis comptent pour nous
+            </h2>
+        </div>
+        <div class="flex flex-wrap -mx-4 text-center">
+            <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                <div class="mb-4">
+                    <span class="text-yellow-400 text-lg">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                </div>
+                <p class="mb-4 text-gray-600">
+                    Ce fut une magnifique soirée dans votre bel établissement. Le menu degustation était surprenant et délicieux à la fois. Le service était parfait, avec un très bon choix de vin. À très vite !
+                </p>
+                <p class="text-gray-800 font-semibold">Raphaël</p>
+            </div>
+            <div class="w-full md:w-1/3 px-4 mb-8 md:mb-0">
+                <div class="mb-4">
+                    <span class="text-yellow-400 text-lg">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                </div>
+                <p class="mb-4 text-gray-600">
+                    Une terrasse de rêve un service impeccable un menu très abordable avec des plats délicieux au visuel attrant. Une adresse à retenir et à partager !
+                </p>
+                <p class="text-gray-800 font-semibold">Marie-Pierre</p>
+            </div>
+            <div class="w-full md:w-1/3 px-4">
+                <div class="mb-4">
+                    <span class="text-yellow-400 text-lg">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </span>
+                </div>
+                <p class="mb-4 text-gray-600">
+                    Un bel endroit où venir oser découvrir des nouvelles saveurs et des mélanges surprenants. Les plats sont gourmands et les produits utilisés locaux. Un accueil tout en douceur, avec de bons conseils oenologiques. À très bientôt autour d'un nouveau menu !
+                </p>
+                <p class="text-gray-800 font-semibold">Céline</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-800 w-full text-white">
+        <div class="container mx-auto px-4 py-6">
+          <div class="flex justify-between items-center">
+            <div>
+              <p>Horaires</p>
+              <p>Du Mardi au Samedi Soir</p>
+              <p>Vendredi et Samedi Midi.</p>
+            </div>
+            <div>
+              <p>Nous contacter</p>
+              <p>19 Rue Vieille Boucherie, 64100 Bayonne</p>
+              <p>05 59 01 75 04</p>
+            </div>
+            <div class="text-sm">
+              <a href="#mentions-legales" class="hover:underline">Mentions légales</a> | 
+              <a href="#politique-de-confidentialite" class="hover:underline">Politique de confidentialité</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/ab416324b3.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      
+</body>
+</html>

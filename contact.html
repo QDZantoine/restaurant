@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Restaurant|Contact</title>
+</head>
+<body class="font-poppins">
+    <!-- Navbar -->
+    <nav class="bg-neutral-100 text-gray-800 p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-lg font-semibold">Restaurant</a>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-4">
+                <a href="index.html" class="hover:text-blue-700">Restaurant</a>
+                <a href="carte.html" class="hover:text-blue-700">Carte</a>
+                <a href="about.html" class="hover:text-blue-700">On parle de nous</a>
+                <a href="contact.html" class="hover:text-blue-700">Contact</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="hidden mobile-menu">
+            <a href="index.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Restaurant</a>
+            <a href="carte.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Carte</a>
+            <a href="about.html" class="block px-4 py-2 text-sm hover:bg-gray-200">On parle de nous</a>
+            <a href="contact.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div class="bg-center bg-cover h-96" style="background-image: url('img/banner_big.jpg');"></div>
+    <!-- Titre -->
+    <div class="container mx-auto px-4 py-8 text-center">
+        <h1 class="font-bold text-gray-700"> Une Réservation ou des questions? </h1>
+        <h2 class="text-gray-700">Contactez-nous au </h2>
+        <h1 class="font-bold text-gray-700">02 96 25 38 41</h1>
+
+    </div>
+ 
+    <!-- form -->
+    <div class="container mx-auto p-8">
+        <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden md:max-w-lg">
+            <div class="md:flex">
+                <div class="w-full p-5">
+                    <div class="text-center">
+                        <h1 class="text-gray-700 font-bold text-2xl mb-5">Contactez-nous</h1> 
+                    </div>
+                    <form>
+                        <div class="mb-5">
+                            <label for="name" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Nom complet</label>
+                            <input type="text" name="name" id="name" placeholder="Votre nom" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                        </div>
+                        <div class="mb-5">
+                            <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Adresse e-mail</label>
+                            <input type="email" name="email" id="email" placeholder="votre@adresse.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" />
+                        </div>
+                        <div class="mb-5">
+                            <label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Votre message</label>
+                            <textarea rows="5" name="message" id="message" placeholder="Votre message" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300" ></textarea>
+                        </div>
+                        <div class="mb-5">
+                            <button type="submit" class="w-full py-3 px-4 bg-gray-600 hover:bg-gray-700 rounded-md text-white text-sm font-medium">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 w-full text-white">
+        <div class="container mx-auto px-4 py-6">
+          <div class="flex justify-between items-center">
+            <div>
+              <p>Horaires</p>
+              <p>Du Mardi au Samedi Soir</p>
+              <p>Vendredi et Samedi Midi.</p>
+            </div>
+            <div>
+              <p>Nous contacter</p>
+              <p>19 Rue Vieille Boucherie, 64100 Bayonne</p>
+              <p>05 59 01 75 04</p>
+            </div>
+            <div class="text-sm">
+              <a href="#mentions-legales" class="hover:underline">Mentions légales</a> | 
+              <a href="#politique-de-confidentialite" class="hover:underline">Politique de confidentialité</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+      
+</body>
+</html>
