@@ -51,6 +51,17 @@ nav{
     height: 100%;
     width: 100%;
     position: absolute;
+    overflow: hidden;
   }
-  
+  .video-responsive{
+    overflow: hidden;
+    background: none;
+    max-width: 50%;
+    max-height: 30%;
+    margin-left: 25%;
+    border-radius: 120px;
+    margin-top: 5%;
+  }
+ 
+
   

@@ -24,41 +24,29 @@
     <!-- Navbar -->
     <nav class="bg-neutral-100 text-gray-800 p-6">
       <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-lg font-semibold">Restaurant</a>
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex space-x-4">
-          <a href="index.html" class="hover:text-blue-700 mr-2 nav_links">Restaurant<i class="fa-solid fa-house ml-4"></i></a>
-          <a href="carte.html" class="hover:text-blue-700 mr-4 nav_links">Carte<i class="fa-solid fa-utensils ml-4"></i
-              ></a>
-          <a href="about.html" class="hover:text-blue-700 mr-4 nav_links">On parle de nous<i class="fa-solid fa-address-card ml-4"></i></a>
-          <a href="contact.html" class="hover:text-blue-700 mr-4 nav_links">Contact<i class="fa-solid fa-address-book ml-4"></i></a>
-        </div>
-        <!-- Mobile Menu Button -->
-        <button id="mobile-menu-button" class="md:hidden">
-          <svg
-            class="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            ></path>
-          </svg>
-        </button>
+          <a href="#" class="text-lg font-semibold">Logo</a>
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex space-x-4">
+              <a href="index.html" class="hover:text-blue-700 mr-2 nav_links">Restaurant<i class="fa-solid fa-house ml-2"></i></a>
+              <a href="carte.html" class="hover:text-blue-700 mr-2 nav_links">Carte<i class="fa-solid fa-utensils ml-2"></i></a>
+              <a href="about.html" class="hover:text-blue-700 mr-2 nav_links">On parle de nous<i class="fa-solid fa-address-card ml-2"></i></a>
+              <a href="contact.html" class="hover:text-blue-700 nav_links">Contact<i class="fa-solid fa-address-book ml-2"></i></a>
+          </div>
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+          </button>
       </div>
       <!-- Mobile Menu -->
       <div class="hidden mobile-menu">
-        <a href="index.html" class="hover:text-blue-700">Restaurant</a>
-        <a href="carte.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Carte</a>
-        <a href="about.html" class="hover:text-blue-700">On parle de nous</a>
-        <a href="contact.html" class="hover:text-blue-700">Contact</a>
+          <a href="index.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Restaurant</a>
+          <a href="carte.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Carte</a>
+          <a href="about.html" class="block px-4 py-2 text-sm hover:bg-gray-200">On parle de nous</a>
+          <a href="contact.html" class="block px-4 py-2 text-sm hover:bg-gray-200">Contact</a>
       </div>
-    </nav>
+  </nav>
 
     <!-- Banner -->
 
@@ -151,25 +139,23 @@
     <!-- Footer -->
     <footer class="bg-gray-800 w-full text-white">
       <div class="container mx-auto px-4 py-6">
-        <div class="flex justify-between items-center">
-          <div>
+        <div class="flex flex-wrap justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <a href="#" class="text-lg font-semibold">Logo</a>
+          </div>
+          <div class="mb-4 md:mb-0">
             <p>Horaires</p>
             <p>Du Mardi au Samedi Soir</p>
             <p>Vendredi et Samedi Midi.</p>
           </div>
-          <div>
+          <div class="mb-4 md:mb-0">
             <p>Nous contacter</p>
             <p>19 Rue Vieille Boucherie, 64100 Bayonne</p>
             <p>05 59 01 75 04</p>
           </div>
           <div class="text-sm">
-            <a href="#mentions-legales" class="hover:underline"
-              >Mentions légales</a
-            >
-            |
-            <a href="#politique-de-confidentialite" class="hover:underline"
-              >Politique de confidentialité</a
-            >
+            <a href="#mentions-legales" class="hover:underline">Mentions légales</a> | 
+            <a href="#politique-de-confidentialite" class="hover:underline">Politique de confidentialité</a>
           </div>
         </div>
       </div>
